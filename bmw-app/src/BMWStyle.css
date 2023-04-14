@@ -1,0 +1,133 @@
+/* BMWStyle.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+  
+.container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: #ffffff;
+    padding: 30px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+}
+  
+h1 {
+    color: #1a5276; /* Darker BMW blue */
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+  
+form {
+    display: flex;
+    flex-direction: column;
+}
+  
+label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1a5276; /* Darker BMW blue */
+}
+  
+input[type="number"],
+input[type="date"],
+input[type="time"] {
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+}
+  
+button {
+    background-color: #1a5276; /* Darker BMW blue */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+  
+button:hover {
+    background-color: #0b3d91; /* BMW blue */
+}
+  
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+  
+th,
+td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+  
+th {
+    background-color: #1a5276; /* Darker BMW blue */
+    color: #ffffff;
+}
+  
+tr:nth-child(even) {
+    background-color: #f4f4f4;
+}
+
+.dashboard {
+    background-color: #b2c1fd;
+    color: #ffffff;
+    font-family: "BMW Type Global", Arial, sans-serif;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.dashboard-header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 1rem;
+    width: 100%;
+    margin-top: 20px;
+    max-width: 1200px;
+}
+  
+.dashboard-header h1 {
+    margin: 0;
+}
+  
+.dashboard-header p {
+    margin: 0;
+    font-size: 14px;
+}
+  
+.dashboard-content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 1200px;
+    width: 100%;
+    padding: 1rem;
+    margin: 20px 0;
+}
+  
+.dashboard-section {
+    background-color: #2a2d3c;
+    border-radius: 4px;
+    padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 300px;
+}
+  
+.dashboard-section h2 {
+    margin-top: 0;
+}

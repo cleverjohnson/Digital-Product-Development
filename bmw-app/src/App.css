@@ -1,0 +1,114 @@
+/* RegistrationForm.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background: #191b20;
+}
+
+.form-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.form-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  font-family: 'Roboto', sans-serif;
+}
+
+.bmw-logo {
+  width: 100px;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+h1 {
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.form-input {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+
+.form-input:focus {
+  outline: none;
+  border: 1px solid #2196f3;
+}
+
+.form-button {
+  display: block;
+  width: 100%;
+  padding: 12px;
+  background-color: #1A439C;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.form-button:hover {
+  background-color: #163779;
+}
+
+.success {
+  color: #32CD32;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+.error {
+  color: #FF4500;
+  font-weight: bold;
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 14px;
+  margin-bottom: 5px;
+  color: #333;
+}
+
+br {
+  margin-bottom: 10px;
+}
+
+div {
+  margin-bottom: 15px;
+}
+
+div.success {
+  color: #2196f3;
+  font-weight: bold;
+}
+
+div.error {
+  color: #f44336;
+  font-weight: bold;
+}
+
